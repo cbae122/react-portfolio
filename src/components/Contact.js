@@ -25,7 +25,7 @@ export default function Contact() {
 
     if (!validateEmail(email) || !name) {
       setErrorMessage('Name or Email is an invalid entry!');
-      
+
       return;
     }
     setName('');
@@ -36,48 +36,48 @@ export default function Contact() {
   return (
     <div>
       <p className='content'>Contact Me</p>
-        <hr />
-        <form id='contactform'>
-          <div>
-            <label className='contactname'>Your Name</label>
-            <input
-              value={name}
-              name='name'
-              onChange={handleFormSubmit}
-              type='text'
-              id='contactname'
-              placeholder='Your Name'
-            />
-          </div>
-          <div>
-            <label className='contactname'>Your Name</label>
-            <input
-              value={name}
-              name='name'
-              onChange={handleFormSubmit}
-              type='text'
-              id='contactname'
-              placeholder='Your Name'
-            />
-          </div>
-          <div>
-            <label className='contactname'>Your Name</label>
-            <input
-              value={name}
-              name='name'
-              onChange={handleFormSubmit}
-              type='text'
-              id='contactname'
-              placeholder='Your Name'
-            />
-          </div>
+      <hr />
+      <form className='contactform'>
 
-            <div>
-              <p></p>
-            </div>
-          <button></button>
-        </form>
+          <label className='contactname'>Your Name</label>
+          <input
+            value={name}
+            name='name'
+            onChange={handleFormSubmit}
+            type='text'
+            id='contactname'
+            placeholder='Your Name'
+          />
+
+          <label className='contactemail'>Your Email</label>
+          <input
+            value={email}
+            name='email'
+            onChange={handleFormSubmit}
+            type='text'
+            id='contactemail'
+            placeholder='Your Email'
+          />
+
+          <label className='contactmessage'>Message</label>
+          <input
+            value={message}
+            name='message'
+            onChange={handleFormSubmit}
+            type='text'
+            id='contactmessage'
+            placeholder='Your Message'
+          />
+
+          <button type='button' onClick={handleFormSubmit}>
+            Submit
+          </button>
+      </form>
+      <div>
+        {errorMessage && (
+          <p className='errorText'>{errorMessage}</p>
+        )}
+      </div>
     </div>
-  )
-
+  );
 }

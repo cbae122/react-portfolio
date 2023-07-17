@@ -23,7 +23,61 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if ()
-  }
+    if (!validateEmail(email) || !name) {
+      setErrorMessage('Name or Email is an invalid entry!');
+      
+      return;
+    }
+    setName('');
+    setMessage('');
+    setEmail('');
+  };
+
+  return (
+    <div>
+      <p className='content'>Contact Me</p>
+        <hr />
+        <form id='contactform'>
+          <div>
+            <label className='contactname'>Your Name</label>
+            <input
+              value={name}
+              name='name'
+              onChange={handleFormSubmit}
+              type='text'
+              id='contactname'
+              placeholder='Your Name'
+            />
+          </div>
+          <div>
+            <label className='contactname'>Your Name</label>
+            <input
+              value={name}
+              name='name'
+              onChange={handleFormSubmit}
+              type='text'
+              id='contactname'
+              placeholder='Your Name'
+            />
+          </div>
+          <div>
+            <label className='contactname'>Your Name</label>
+            <input
+              value={name}
+              name='name'
+              onChange={handleFormSubmit}
+              type='text'
+              id='contactname'
+              placeholder='Your Name'
+            />
+          </div>
+
+            <div>
+              <p></p>
+            </div>
+          <button></button>
+        </form>
+    </div>
+  )
 
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './NavTabs';
 
-function Header(props) {
+export default function Header(props) {
   const { currentPage, handlePageChange } = props;
 
   return (
@@ -39,7 +39,4 @@ function Header(props) {
     </div>
   );
 }
-
-export default Header;
-
 

@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import { Helmet } from 'react-helmet';
 import './App.css';
 
 function App() {
+  const [currentPage, handlePageChange] = useState('about');
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    // if (currentPage === 'Portfolio') {
+    //   return <Portfolio />;
+    // }
+    // if (currentPage === 'Contact') {
+    //   return <Contact />;
+    // }
+    // if (currentPage === 'Resume') {
+    //   return <Resume />;
+    // }
+    return <About />;
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>Chris Bae's Portfolio | {currentPage} </title>
+      </Helmet>
+      ;
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}></Header>
+      <main>{renderPage()}</main>
+      <footer></footer>
+    </>
   );
+
 }
 
 export default App;

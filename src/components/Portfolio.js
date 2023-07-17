@@ -1,52 +1,41 @@
 import React from 'react';
+import pearMusicImage from '../assets/projectImages/Screenshot 2023-04-06 at 8.33.43 PM.png';
 
 export default function Portfolio() {
   return (
     <div>
-      <div>
+      <section></section>
         <div>
-          <div>
-            <div>
-              <figure>
-                <a href>
-                  <img></img>
-                </a>
-              </figure>
+          <h2>My Portfolio</h2>
+        </div>
+
+        <div className='project'>
+          <div className='project-info'>
+            <div className='project-img'>
+              <a href='https://github.com/cbae122/pear-music-project1'>
+                {' '}
+                <img
+                  src={pearMusicImage}
+                  className='portfoliodiv'
+                  style={{ width: '100%' }}
+                  alt='cbae122'
+                />
+              </a>
             </div>
+
             <div>
-              <div>
-                <div>
-                  <div>
-                    <p>
-
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <br>
-                  </br>
-                  <div>
-                    <br>
-                    </br>
-                  </div>
-                  <div>
-                    <footer>
-                      <a href>
-
-                      </a>
-                      <br>
-                      </br>
-                      <a href>
-
-                      </a>
-                    </footer>
-                  </div>
-                </div>
-              </div>
+              <h4>Pear Music</h4>
+              <p>
+                Music app
+              </p>
             </div>
           </div>
         </div>
-      </div>
+
+
+
+
+
     </div>
   );
 }

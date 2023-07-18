@@ -7,7 +7,7 @@ export default function Header(props) {
   return (
     <div>
       <section>
-        <header>
+        <header className='flex-row px-1'>
           <div>
             <h1>Chris Bae's Portfolio</h1>
           </div>
@@ -23,16 +23,8 @@ export default function Header(props) {
         <div>
           <h2>Welcome</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-            velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-            ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-            non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-            ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-            rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-            tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-            porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-            vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus.
+            Chris Bae is currently a supply chain professional with a special focus in project management. His background in demand and supply planning, inventory management and execution informs his mindful but competitive approach.
+            Chris is finally ready to persue his passion of computers and coding. He has experience building computers. Picking the parts, assembling, and installing software. He is ready to learn the other side of the computer world which involves coding and software engineering.
           </p>
         </div>
       </section>

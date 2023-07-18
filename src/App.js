@@ -32,7 +32,7 @@ function App() {
       <Helmet>
         <title>Chris Bae's Portfolio | {currentPage} </title>
       </Helmet>
-      ;
+      
       <Header currentPage={currentPage} handlePageChange={handlePageChange}></Header>
       <main>{renderPage()}</main>
       <Footer></Footer>

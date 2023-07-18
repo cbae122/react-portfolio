@@ -38,3 +38,7 @@ code {
   max-width: 200%;
   max-height: 100%;
 }
+
+.project-text {
+  flex: 12;
+}

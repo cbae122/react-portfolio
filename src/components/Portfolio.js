@@ -23,7 +23,7 @@ export default function Portfolio() {
               </a>
             </div>
 
-            <div>
+            <div className='project-text'>
               <h4>Pear Music</h4>
               <p>
                 Music app

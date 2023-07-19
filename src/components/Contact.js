@@ -36,7 +36,7 @@ export default function Contact() {
 
   return (
     <div>
-      <p className='content'>Contact Me</p>
+      <h1 className='content'>Contact Me</h1>
       <hr />
       <form className='contactform'>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import resumeHere from '../assets/files/Chris_Bae_Resume.pdf';
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <div>
         <h1>Resume</h1>
         <hr />
-        <a href='resume' className='downloadbtn'>Download</a>
+        <a href={resumeHere} className='downloadbtn'>Download</a>
         <span>
 
         </span>

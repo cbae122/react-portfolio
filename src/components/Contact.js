@@ -8,9 +8,9 @@ export default function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
-    const { input } = e;
-    const inputType = input.name;
-    const inputValue = input.value;
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
 
     if (inputType === 'email') {
       setEmail(inputValue);

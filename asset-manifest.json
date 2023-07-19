@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.667b66a9.css",
+    "main.js": "/react-portfolio/static/js/main.cf4a47ea.js",
+    "static/js/787.26eb005d.chunk.js": "/react-portfolio/static/js/787.26eb005d.chunk.js",
+    "static/media/DSC00592.jpg": "/react-portfolio/static/media/DSC00592.52dfe12f7722fbc71858.jpg",
+    "static/media/Screenshot 2023-06-07 at 8.26.36 PM.png": "/react-portfolio/static/media/Screenshot 2023-06-07 at 8.26.36 PM.1cbfe85a209446b11ff9.png",
+    "static/media/10016647_27282.jpg": "/react-portfolio/static/media/10016647_27282.a6fac1fcc5c7d361791f.jpg",
+    "static/media/8562880_25516.jpg": "/react-portfolio/static/media/8562880_25516.023481dc07d54edca1c3.jpg",
+    "static/media/9504688_26690.jpg": "/react-portfolio/static/media/9504688_26690.bd8840f90123aa498591.jpg",
+    "static/media/Screenshot 2023-04-06 at 8.33.43 PM.png": "/react-portfolio/static/media/Screenshot 2023-04-06 at 8.33.43 PM.4926976c8b04ef24a4ac.png",
+    "static/media/10016630_27277.jpg": "/react-portfolio/static/media/10016630_27277.6c287604805337d10f6a.jpg",
+    "static/media/Chris_Bae_Resume.pdf": "/react-portfolio/static/media/Chris_Bae_Resume.a39cbd9800bd469c0c33.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.667b66a9.css.map": "/react-portfolio/static/css/main.667b66a9.css.map",
+    "main.cf4a47ea.js.map": "/react-portfolio/static/js/main.cf4a47ea.js.map",
+    "787.26eb005d.chunk.js.map": "/react-portfolio/static/js/787.26eb005d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667b66a9.css",
+    "static/js/main.cf4a47ea.js"
+  ]
+}

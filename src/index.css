@@ -73,3 +73,11 @@ header nav ul {
 .footerpos {
   padding-top: 20%;
 }
+
+.aboutimg {
+ flex: 1 12%;
+}
+
+.aboutimg img {
+  max-width: 20%;
+}

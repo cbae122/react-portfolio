@@ -61,7 +61,7 @@ export default function Contact() {
           />
 
           <label className='contactmessage'>Message</label>
-          <input
+          <textarea
             value={message}
             name='message'
             onChange={handleInputChange}

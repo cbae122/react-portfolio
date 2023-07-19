@@ -62,3 +62,10 @@ header nav ul li a {
 .project-text {
   flex: 12;
 }
+
+.contactform {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+  align-items: center;
+}

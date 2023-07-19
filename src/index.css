@@ -81,3 +81,20 @@ header nav ul {
 .aboutimg img {
   max-width: 20%;
 }
+
+/* MEDIA SCREEN SETTINGS FOR SMALLER DEVIVES */
+
+@media screen and (min-width: 768px) {
+    body {
+        flex: 0 0 50%;
+    }
+    .hero-text{
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        flex: 0 0 75%;
+    }
+}

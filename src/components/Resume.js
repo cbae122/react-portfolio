@@ -17,7 +17,7 @@ export default function Home() {
       <div>
         <h2>Skills</h2>
         <hr />
-        <ul>
+        <ul className='resumelist'>
           <li>HTML, CSS, Javascript</li>
           <li>Web APIs, Third-Party APIs, Server-Side APIs</li>
           <li>NodeJS, Object Oriented Programming, Express</li>

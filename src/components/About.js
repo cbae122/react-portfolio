@@ -7,20 +7,15 @@ export default function About() {
       <hr />
       <img></img>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Chris Bae is currently a supply chain professional with a special focus in project management.
+        His background in demand and supply planning, inventory management and execution informs his mindful but competitive approach.
       </p>
+
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Chris is finally ready to persue his passion of computers and coding.
+        He has experience building computers.
+        Picking the parts, assembling, and installing software.
+        He is ready to learn the other side of the computer world which involves coding and software engineering.
       </p>
     </div>
   );
